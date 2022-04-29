@@ -2,12 +2,12 @@
   "redirects": [
     {
       "source": "/code",
-      "destination": "https://gitlab.com/nk-87",
+      "destination": "https://github.com/nk-87",
       "statusCode": 301
     },
     {
       "source": "/git",
-      "destination": "https://gitlab.com/nk-87",
+      "destination": "https://github.com/nk-87",
       "statusCode": 301
     }
   ]
