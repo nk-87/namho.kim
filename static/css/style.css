@@ -1,0 +1,63 @@
+:root {
+  --background-color: #fff;
+  --text-color: #282a36;
+  --link-color: dodgerblue;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #1e202a;
+    --text-color: #f8f8f2;
+    --link-color: #8be9fd;
+  }
+}
+
+html, body {
+    height: 80%;
+  }
+
+  html {
+    display: table;
+    margin: auto;
+  }
+
+  body {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: monospace;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  h1 {
+    font-size: 3.0em;
+  }
+
+  p {
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 2.2em;
+  }
+  
+  a {
+    color: var(--link-color);
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  #container {
+    margin: auto;
+    text-align: center;
+  }
+
+  @media only screen and (min-width: 520px) and (min-height: 300px) {
+    #container { 
+      border: 1px dotted var(--text-color);
+      padding: 3em 10em 3em 10em;
+    }
+  }
