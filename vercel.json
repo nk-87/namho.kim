@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/code",
+      "destination": "https://github.com/nk-87",
+      "statusCode": 301
+    },
+    {
+      "source": "/git",
+      "destination": "https://github.com/nk-87",
+      "statusCode": 301
+    }
+  ]
+}
